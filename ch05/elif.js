@@ -23,5 +23,4 @@ rl.question("점수를 입력하세요", function (score) {
     }
 
     console.log(result);
-    rl.close();
-});
+    rl.close();});
