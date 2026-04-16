@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+        * {
+            font-family: "Gamja flower", "Noto Sans";
+            box-sizing: border-box;
+        }
+        
+        .wrap {
+            width: 100%;
+            display: flex;
+        }
+
+        .profile_wrap {
+            font-size: 18px;
+            width: 50%;
+            background-color: #757575;
+            color: white;
+        }
+        .btn_wrap {
+            width: 50%;
+            background-color: red;
+        }
+
+        .btn_wrap button {
+            width: 80px;
+            height: 60px;
+            background-color: pink;
+            cursor: pointer;
+            border-radius: 10px;
+            border: none;
+            box-shadow: 5px 5px 5px rgb(133, 133, 133);
+        }
+        .btm_wrap button:hovor {
+            background-color: rgb(213, 15, 48);
+            box-shadow: 5px 5px 5px rgb(133, 133, 133);
+        }
+
+        img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>안녕하세요, 이병수입니다.</h1>
+<div class="wrap">
+    <div class="profile_wrap">
+        <div>나이: 17</div>
+        <div>취미: 롤</div>
+        <div>장레희망: 꿈 전체를 이룬 사람</div>
+    </div>
+    <div class="btn_wrap">
+        <button class="btn btn-1" onclick="goNaver()">버튼1</button>
+        <button class="btn btn-2">버튼2<sss/button>
+        <button class="btn btn-3">버튼3</button>
+    </div>
+</div>
+<img
+src="https://i.pinimg.com/736x/6d/4b/bb/6d4bbbcc878d05b4269ae214b914a72e.jpg"
+/>
+</body>
+<script>
+    function goNaver() {
+        location.href = "https://naver.com";
+    }
+</script>
+</html>
